@@ -1,7 +1,7 @@
-Salsa20/10 Stream Cipher 
- Overview
+Salsa 20/10 Stream Cipher 
+ 
 
-This project is a Java implementation of the Salsa20/10 stream cipher,it demonstrates my understanding of cryptographic algorithms, bitwise operations, and secure system design.
+This project is a Java implementation of the Salsa 20/10 stream cipher,it demonstrates my understanding of cryptographic algorithms, bitwise operations, and secure system design.
 
 The cipher supports 64-bit (non-standard), 128-bit, and 256-bit keys — following Daniel J. Bernstein’s Salsa20 specification, with modifications for the non-standard key length as described in the assignment brief.
 
