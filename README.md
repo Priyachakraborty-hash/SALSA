@@ -9,19 +9,19 @@ The cipher supports 64-bit (non-standard), 128-bit, and 256-bit keys — followi
 
 Multi-key support: 64, 128, and 256-bit keys
 
-⚙️ Core algorithmic components: quarterround, rowround, columnround, and doubleround functions
+ Core algorithmic components: quarterround, rowround, columnround, and doubleround functions
 
-🧮 Nonce + Counter expansion: 8-byte nonce + 8-byte block counter (little-endian)
+ Nonce + Counter expansion: 8-byte nonce + 8-byte block counter (little-endian)
 
-🔄 Symmetric encryption/decryption: same function via XOR with keystream
+ Symmetric encryption/decryption: same function via XOR with keystream
 
-🧱 Fully modular design: easy to extend or adapt for Salsa20/20 and ChaCha variants
+Fully modular design: easy to extend or adapt for Salsa20/20 and ChaCha variants
 
-🧯 Robust error handling: detects invalid key sizes, nonce length, bad hex input, and >1 KB input limit
+ Robust error handling: detects invalid key sizes, nonce length, bad hex input, and >1 KB input limit
 
-💬 Command-line interface: clean hex-encoded I/O for both encryption and decryption
+ Command-line interface: clean hex-encoded I/O for both encryption and decryption
 
-🧠 What I Learned
+ What I Learned
 
 Implementing Salsa20/10 from scratch helped me strengthen my skills in:
 
