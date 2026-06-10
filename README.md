@@ -8,7 +8,7 @@ The cipher supports 64-bit (non-standard), 128-bit, and 256-bit keys — followi
  Features
 
 Multi-key support: 64, 128, and 256-bit keys
-
+,
  Core algorithmic components: quarterround, rowround, columnround, and doubleround functions
 
  Nonce + Counter expansion: 8-byte nonce + 8-byte block counter (little-endian)
