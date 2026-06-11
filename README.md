@@ -1,4 +1,4 @@
-Salsa 20/10 Stream Cipher 
+Salsa 20/10 a Stream Cipher project
  
 
 This project is a Java implementation of the Salsa 20/10 stream cipher,it demonstrates my understanding of cryptographic algorithms, bitwise operations, and secure system design.
